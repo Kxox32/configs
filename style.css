@@ -1,0 +1,46 @@
+window {
+    margin: 0px;
+    border: 2px solid #555555; /* Szary @8 */
+    background-color: rgba(30, 30, 30, 0.80); /* 45% Opacity */
+    border-radius: 20px; /* Zaokrąglone rogi okna */
+    font-family: "JetBrainsMono Nerd Font", "Inter", "Sans-Serif";
+}
+
+#input {
+    margin: 10px;
+    border: none;
+    color: #ffffff; /* Biały @15 */
+    background-color: rgba(60, 60, 60, 0.45);
+    border-radius: 12px;
+    padding: 10px;
+}
+
+#inner-box {
+    margin: 10px;
+    background-color: transparent;
+}
+
+/* Styl dla ikon */
+#img {
+    margin-right: 15px; /* Odstęp ikony od tekstu */
+    background-color: transparent;
+}
+
+#text {
+    color: #888888; /* Szary @8 */
+    vertical-align: center;
+}
+
+#entry {
+    padding: 10px;
+    border-radius: 15px; /* Zaokrąglenie każdego elementu na liście */
+}
+
+#entry:selected {
+    background-color: rgba(136, 136, 136, 0.3); /* Delikatne podświetlenie */
+    outline: none;
+}
+
+#text:selected {
+    color: #ffffff; /* Biały tekst przy zaznaczeniu */
+}
